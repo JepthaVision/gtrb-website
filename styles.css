@@ -5,9 +5,12 @@ body {
     background-repeat: no-repeat;
     background-size: 100%;
     background-attachment: fixed;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:Georgia, 'Times New Roman', Times, serif;
     color: white;
     width: auto;
+}
+h2 {
+    text-align: center;
 }
 
 .column {
@@ -26,14 +29,13 @@ body {
 .container {
     display: flex;
     flex-direction: column;
-    gap: 1em;
+    gap: 50px;
 }
 .section {
     display: flex;
     flex-direction: column;
     background: linear-gradient(to right, transparent, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 100%, transparent);
     padding-inline: 2em;
-    padding-bottom: 1em;
     border-radius: 5px;
 }
 .shelf {
@@ -47,12 +49,20 @@ body {
     width: 800px;
 }
 
+.about {
+    width: 600px;
+}
+.band {
+    width: 200px;
+}
+
 .head{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content:space-between;
     padding-inline: 20px;
+    padding-bottom: 50px;
 }
 .social-links {
     display: flex;
@@ -71,7 +81,7 @@ body {
 .title {
     display: flex;
     justify-content: center;
-    font-size: 600%;
+    font-size: 500%;
 }
 .logo {
     display: flex;
@@ -101,14 +111,23 @@ body {
     height: 3em;
 }
 .gap {
-    gap: 10px
+    gap: 20px
 }
 
 
 /* TEXT */
-.big{
+.hl1 {
+    font-weight: bold;
     text-align: center;
-    font-size: xx-large;
+    font-size: 100%;
+    padding-bottom: 0.5em;
+}
+.hl2 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 90%;
+    color:dodgerblue;
+    padding-bottom: 1em;
 }
 .header {
     color: powderblue;
@@ -123,7 +142,6 @@ body {
     color: white;
 }
 .subtle {
-    color: dimgray;
     padding: 2em;
 }
 
@@ -136,7 +154,6 @@ body {
     color: white;
     border: 2px solid white;
     background-color: transparent;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: large;
     font-weight: bold;
     text-decoration: none;
@@ -165,7 +182,7 @@ body {
 .video-container {
     position: relative;
     width: 100%;
-    padding-bottom: 56.25%;
+    padding-bottom: 42%;
     height: 0;
     overflow: hidden;
 }
